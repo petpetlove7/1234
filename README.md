@@ -1,3 +1,7 @@
-이것은 각주 예시입니다.[^1]
+Here is a simple footnote[^1].
 
-[^1]: 이것은 각주의 내용입니다.
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
