@@ -1,7 +1,26 @@
-Here is a simple footnote[^1].
+svg[id^="m"][width][height][viewBox] {
+    max-width: 95%;
+    max-height: 95%;
+}
 
-A footnote can also have multiple lines[^2].
+div.mermaid {
+    margin-left: 0 !important;
+    text-align: center;
+    resize:both;
+    overflow:auto;
+    margin-bottom: 2px;
+    position:relative;
+    max-height: 600px;
+    max-width: 100%;
+}
 
-[^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+div.mermaid::after {
+    content:'';
+    display:block;
+    width:10px;
+    height:10px;
+    background-color:yellowgreen;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
